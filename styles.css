@@ -1,0 +1,167 @@
+/* * {
+    border: solid 1px red;
+} */
+
+h1 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    text-align: left;
+    font-family: "Playfair Display";
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* section {
+    text-align: center;
+} */
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+li {
+    flex: 1;
+    margin: 10px;
+    padding: 70px 0;
+    text-align: center;
+}
+
+/* Color Palettes Section */
+
+#color-palette {
+    padding: 0 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    height: 50px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.palette {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.palette ul {
+    flex: 1;
+    list-style-type: none;
+}
+
+.pal1 .color1 {
+    
+    background-color: rgb(70, 93, 223); 
+}
+
+.pal1 .color2 {
+    background-color:rgb(70, 167, 223);
+}
+
+.pal1 .color3 {
+    background-color:rgb(255, 244, 85);
+}
+
+.pal1 .color4 {
+    background-color:rgb(247, 203, 8);
+}
+
+.pal1 .color5 {
+    background-color:rgb(226, 112, 6);
+}
+
+
+/* Fonts*/
+
+#fonts {
+    padding:  5px 60px;
+    background-color: rgb(70, 167, 223);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.font-list {
+    display: flex;
+}
+
+.playfair-display {
+    font-family: "Playfair Display";
+}
+
+.raleway {
+    font-family: Raleway;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.pair {
+    display: flex;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.pair div {
+    flex: 1;
+    margin: 0 auto;
+}
+
+
+/* Text Styles*/
+#text-styles {
+    margin: 5px auto;
+    padding: 5px 60px;
+    background-color: rgb(255, 244, 85);
+    border-radius: 10px;
+    width: 80%;
+}
+
+.text-type {
+    margin: 16px 0 0 0;
+    text-align: left;
+}
+
+#text-styles ul {
+    display: block;
+    text-align: left;
+    padding: 0 12px;
+    list-style-type: circle;
+    margin: 0 5px;
+}
+
+#text-styles li {
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    font-family: Raleway;
+}
